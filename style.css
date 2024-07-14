@@ -1,0 +1,18 @@
+main{
+    background-color: lime;
+}
+header{
+    background-color: aqua;
+}
+/* nav{
+    background-color: rgb(238, 84, 205);
+} */
+footer{
+    background-color: orange;
+}
+body{
+    background-color: black;
+}
+hr{
+    background-color: black;
+}

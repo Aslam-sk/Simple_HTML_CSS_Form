@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Level 5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1><u><i>Welcome to my website!</i></u></h1>
+        <hr>
+        <nav>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <section>
+            <h2><u>Form Validation</u>:-</h2>
+        </section>
+        <section>
+            <form action="" method="post">
+                <div>
+                    <label for="username">UserName: </label>
+                    <input type="text" name="UserName" id="username" required="true">
+                </div>
+                <br>
+                <div>
+                    <label for="email">Email: </label>
+                    <input type="email" name="Email" id="email" required="true">
+                </div>
+                <br>
+                <div>
+                    <label for="password">Password: </label>
+                    <input type="password" name="Password" id="password" required="true">
+                </div>
+                <br>
+                <div>
+                    <label for="confirmPassword">Confirm Password: </label>
+                    <input type="password" name="ConfirmPassword" id="confirmPassword" required="true">
+                </div>
+                <br>
+                <div>
+                    <label for="gender">Gender: </label>
+                    <select name="Gender" id="gender" required="true">
+                        <option value="">Select Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="dob">Date of Birth: </label>
+                    <input type="date" name="dob" id="dob" required="true">
+                </div>
+                <br>
+                <div>
+                    <label for="address">Address: </label>
+                    <textarea name="Address" id="address" required="true" rows="1" cols="10"></textarea>
+                </div>
+                <br>
+                <div>
+                    Chose your faverite fruits: 
+                    <label for="apple">Apple </label>
+                    <input type="checkbox" name="Fruits" id="apple" value="apple">
+                    <label for="banana">Banana </label>
+                    <input type="checkbox" name="Fruits" id="banana" value="banana">
+                    <label for="mango">Mango </label>
+                    <input type="checkbox" name="Fruits" id="mango" value="mango">
+                </div>
+                <br>
+                <div>
+                    <label for="country">Country: </label>
+                    <select name="country" id="country" required="true">
+                        <option value="">Select Country</option>
+                        <option value="usa">USA</option>
+                        <option value="uk">UK</option>
+                        <option value="canada">Canada</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="button">Marrital Status: </label>
+                    <input type="radio" id="Single" name="button" value="Single">
+                    <label for="Single">Single</label>
+                    <input type="radio" id="Married" name="button" value="Married">
+                    <label for="Married">Married</label>
+                </div>
+                <br>
+                <div>
+                    <label for="number">Phone Number: </label>
+                    <input type="number" name="Number" id="number" required="true">
+                </div>
+                <br>
+                <div>
+                    <label for="file">File</label>
+                    <input type="file" name="File" id="file" required="true">
+                </div>
+                <br>
+                <div>
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        &copy; 2021 My Website. All rights reserved.
+    </footer>
+</body>
+</html>
